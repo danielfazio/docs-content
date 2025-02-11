@@ -7,15 +7,17 @@ navigation_title: Inference integrations
 
 # Integrate with third-party services
 
-{{es}} provides a machine learning [inference API](https://www.elastic.co/docs/api/doc/elasticsearch/v8/operation/operation-inference-get-1) to create and manage inference endpoints to integrate with machine learning models provide by popular third-party services like Amazon Bedrock, Anthropic, Azure AI Studio, Cohere, Google AI, Mistral, OpenAI, Hugging Face, and more.
+{{es}} provides a machine learning [inference API](https://www.elastic.co/docs/api/doc/elasticsearch/v8/group/endpoint-inference) to create and manage inference endpoints to integrate with machine learning models provide by popular third-party services like Amazon Bedrock, Anthropic, Azure AI Studio, Cohere, Google AI, Mistral, OpenAI, Hugging Face, and more.
 
 Learn how to integrate with specific services in the subpages of this section.
 
-## Inference endpoints UI [inference-endpoints]
+## Managing inference endpoints [inference-endpoints]
 
-You can also manage inference endpoints using the UI.
+Inference endpoints can be managed using both the {{es}} [REST API](https://www.elastic.co/docs/api/doc/elasticsearch) and the {{kib}} UI **Inference endpoints** page.
 
-The **Inference endpoints** page provides an interface for managing inference endpoints.
+### Inference endpoints UI
+
+In {{kib}}, the **Inference endpoints** page provides a graphical interface for managing inference endpoints.
 
 :::{image} ../../images/kibana-inference-endpoints-ui.png
 :alt: Inference endpoints UI
